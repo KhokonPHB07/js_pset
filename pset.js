@@ -71,23 +71,18 @@ Write a program to find your and your friends’ grades using if-else.
  * 
  */
 
-var score=[95,85,66,56.40];
+// var score=[41];
 
-if(score[0]>=80 && score[0]<=100){
-    console.log('Wow, congrats and graded is A')
-}
-if-else (score[1]>=60 && score[1]<=79){
-    console.log('Wow, congrats and graded is B')
-}
-else if(score[2]>=50 && score[2]<=59){
-    console.log('Wow, congrats and graded is C')
-}
-else if(score[3]>=40 && score[3]<=49){
-    console.log('Wow, congrats and graded is D')
-}
-else if(score[4]==0 && score[4]<=39){
-    console.log('Sorry! you failed, try hard next time')
-}
+// if((score[0]>=80 && score[0]<=100)||(score[0]>=80 && score[0]<=100)||(score[0]>=80 && score[0]<=100)||(score[0]>=80 && score[0]<=100)||(score[0]>=80 && score[0]<=100)){
+//     console.log('Wow, congrats and grade is A')
+// }
+
+// else{
+//     console.log('Oops sorry you failed, try hard and good luck next time')
+// }
+
+
+
 
 /*****
  * 1. You are given three numbers 13, 79, and 45. Write a program that will print the
@@ -101,6 +96,28 @@ Isosceles => two sides are equal
  * 
  */
 
+var a=13;
+var b=79;
+var c=45;
+
+if(a>b && a>c){
+    console.log(a)
+}
+else if(c>b && c>a){
+    console.log(c)
+}
+else if(b>a && b>c){
+    console.log(b)
+}
 
 
+var a=9;
+var b=9;
+var c=8;
 
+if(a==b && a!=c){
+    console.log(a+'triangle is Isosceles')
+}
+else if(c==b && c!=a){
+    console.log(c+'This triangle is Isosceles')
+}
