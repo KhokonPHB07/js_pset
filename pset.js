@@ -121,3 +121,12 @@ if(a==b && a!=c){
 else if(c==b && c!=a){
     console.log(c+'This triangle is Isosceles')
 }
+
+var a=[1,2,3,4,5,6,7,8,9];
+var b=['apple','mango','banana','jackfruit'];
+var merged=a.concat(b);
+console.log(merged.length)
+
+
+var c=['a','b','c','d','e','e']
+
