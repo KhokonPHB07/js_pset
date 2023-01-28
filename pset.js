@@ -96,37 +96,58 @@ Isosceles => two sides are equal
  * 
  */
 
-var a=13;
-var b=79;
-var c=45;
+// var a=13;
+// var b=79;
+// var c=45;
 
-if(a>b && a>c){
-    console.log(a)
-}
-else if(c>b && c>a){
-    console.log(c)
-}
-else if(b>a && b>c){
-    console.log(b)
-}
-
-
-var a=9;
-var b=9;
-var c=8;
-
-if(a==b && a!=c){
-    console.log(a+'triangle is Isosceles')
-}
-else if(c==b && c!=a){
-    console.log(c+'This triangle is Isosceles')
-}
-
-var a=[1,2,3,4,5,6,7,8,9];
-var b=['apple','mango','banana','jackfruit'];
-var merged=a.concat(b);
-console.log(merged.length)
+// if(a>b && a>c){
+//     console.log(a)
+// }
+// else if(c>b && c>a){
+//     console.log(c)
+// }
+// else if(b>a && b>c){
+//     console.log(b)
+// }
 
 
-var c=['a','b','c','d','e','e']
+// var a=9;
+// var b=9;
+// var c=8;
 
+// if(a==b && a!=c){
+//     console.log(a+'triangle is Isosceles')
+// }
+// else if(c==b && c!=a){
+//     console.log(c+'This triangle is Isosceles')
+// }
+
+// var a=[1,2,3,4,5,6,7,8,9];
+// var b=['apple','mango','banana','jackfruit'];
+// var merged=a.concat(b);
+// console.log(merged.length)
+
+
+// var c=['a','b','c','d','e','e']
+
+// var a='false';
+// console.log(typeof a);
+
+// var i=5;
+// for(;i<10;i++){
+//     console.log(i);
+// }
+
+var examMarks=[89,68,67,93,96,87,81,88,90,78,95,96];
+var totalMark=0;
+for(var i=0;i<examMarks.length;i++)
+    {
+        totalMark=examMarks[i]+totalMark;
+    }
+    var avg=totalMark/examMarks.length;
+    avg.parseFloat.toFixed(2);
+    if(avg>=80 || 100<=avg )
+    {
+        console.log('Your Graded is A and average mark is'+':'+avg);
+    }
+    
