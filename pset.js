@@ -138,16 +138,91 @@ Isosceles => two sides are equal
 //     console.log(i);
 // }
 
-var examMarks=[89,68,67,93,96,87,81,88,90,78,95,96];
+// School result output
+// take data and store 
+var examMarks=[29,27];
 var totalMark=0;
-for(var i=0;i<examMarks.length;i++)
-    {
-        totalMark=examMarks[i]+totalMark;
-    }
-    var avg=totalMark/examMarks.length;
-    avg.parseFloat.toFixed(2);
-    if(avg>=80 || 100<=avg )
-    {
-        console.log('Your Graded is A and average mark is'+':'+avg);
-    }
+// sum all data and find avg. marks
+// for(var i=0;i<examMarks.length;i++)
+//     {
+//         totalMark=examMarks[i]+totalMark;
+//     }
+//     var avg=totalMark/examMarks.length;
+//     avg=avg.toFixed(2);
+   
+// compare data to Grade range and show the result with avg. marks.  
     
+    // if(avg>=80 || 100<=avg )
+    //     {
+    //         console.log('Your Grade is A and average mark is'+':'+avg);
+    //     }
+    
+    // else if(avg>=60 || 79<=avg )
+    //     {
+    //         console.log('Your Grade is B and average mark is'+':'+avg);
+    //     }
+    
+    // else if(avg>=40 || 59<=avg )
+    //     {
+    //         console.log('Your Grade is C and average mark is'+':'+avg);
+    //     }
+    
+    // else if(avg>=0 || 39<=avg )
+    //     {
+    //         console.log('Your Grade is F and average mark is'+':'+avg);
+    //     }
+    
+
+    
+    // var c;
+    // var i=0;
+    // while(i<=30)
+    //     {
+    //         i=i+2;
+    //         c=[i];
+    //     }
+    // console.log(c.length); 
+    
+    
+    // প্রাকটিস চ্যালেঞ্জ-১
+
+// প্রতিদিন তোমার কাজ কি? 
+
+// ১) রাত ৮ টা বাজে মডিউল আনলক করো  
+
+// ২) ফটাফট ভিডিও দেখে দেখে প্রাকটিস করো
+
+// ৩) ভিডিও দেখতে দেখতে নোটস নাও 
+
+// ৪) মডিউল শেষ হলে পুরা মডিউল নিজে নিজে প্রাকটিস করো 
+
+// ৫) কোন কিছু বুঝতে না পারলে (চিন্তা করে দেখো এইখানে কিন্তু একটা শর্ত আছে ), সাপোর্ট সেশনে জয়েন করো 
+
+// এখন তোমার কাজ হচ্ছে একটা for লুপ 5 বার চালিয়ে উপরের জিনিসগুলা আউটপুট হিসেবে দেখানো। 
+
+var i=5;
+while(i>=1)
+        {
+            if(i==5)
+                {
+                    console.log('১) রাত ৮ টা বাজে মডিউল আনলক করো ');
+                }
+            else if(i==4)
+                {
+                    console.log('২) ফটাফট ভিডিও দেখে দেখে প্রাকটিস করো');
+                }
+            else if(i==3)
+                {
+                    console.log('৩) ভিডিও দেখতে দেখতে নোটস নাও');
+                }
+            else if(i==2)
+                {
+                    console.log('৪) মডিউল শেষ হলে পুরা মডিউল নিজে নিজে প্রাকটিস করো ');
+                }
+            else if(i==1)
+                {
+                    console.log('৫) কোন কিছু বুঝতে না পারলে (চিন্তা করে দেখো এইখানে কিন্তু একটা শর্ত আছে ), সাপোর্ট সেশনে জয়েন করো  ');
+                }
+               i--;
+        }
+
