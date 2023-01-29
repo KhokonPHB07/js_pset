@@ -140,8 +140,8 @@ Isosceles => two sides are equal
 
 // School result output
 // take data and store 
-var examMarks=[29,27];
-var totalMark=0;
+// var examMarks=[29,27];
+// var totalMark=0;
 // sum all data and find avg. marks
 // for(var i=0;i<examMarks.length;i++)
 //     {
@@ -174,14 +174,14 @@ var totalMark=0;
     
 
     
-    // var c;
-    // var i=0;
-    // while(i<=30)
-    //     {
-    //         i=i+2;
-    //         c=[i];
-    //     }
-    // console.log(c.length); 
+    var c=[];
+    var i=0;
+    while(i<=30)
+        {
+            i=i+2;
+            c.push();
+        }
+    console.log(c.length); 
     
     
     // প্রাকটিস চ্যালেঞ্জ-১
@@ -200,29 +200,29 @@ var totalMark=0;
 
 // এখন তোমার কাজ হচ্ছে একটা for লুপ 5 বার চালিয়ে উপরের জিনিসগুলা আউটপুট হিসেবে দেখানো। 
 
-var i=5;
-while(i>=1)
-        {
-            if(i==5)
-                {
-                    console.log('১) রাত ৮ টা বাজে মডিউল আনলক করো ');
-                }
-            else if(i==4)
-                {
-                    console.log('২) ফটাফট ভিডিও দেখে দেখে প্রাকটিস করো');
-                }
-            else if(i==3)
-                {
-                    console.log('৩) ভিডিও দেখতে দেখতে নোটস নাও');
-                }
-            else if(i==2)
-                {
-                    console.log('৪) মডিউল শেষ হলে পুরা মডিউল নিজে নিজে প্রাকটিস করো ');
-                }
-            else if(i==1)
-                {
-                    console.log('৫) কোন কিছু বুঝতে না পারলে (চিন্তা করে দেখো এইখানে কিন্তু একটা শর্ত আছে ), সাপোর্ট সেশনে জয়েন করো  ');
-                }
-               i--;
-        }
+// var i=5;
+// while(i>=1)
+//         {
+//             if(i==5)
+//                 {
+//                     console.log('১) রাত ৮ টা বাজে মডিউল আনলক করো ');
+//                 }
+//             else if(i==4)
+//                 {
+//                     console.log('২) ফটাফট ভিডিও দেখে দেখে প্রাকটিস করো');
+//                 }
+//             else if(i==3)
+//                 {
+//                     console.log('৩) ভিডিও দেখতে দেখতে নোটস নাও');
+//                 }
+//             else if(i==2)
+//                 {
+//                     console.log('৪) মডিউল শেষ হলে পুরা মডিউল নিজে নিজে প্রাকটিস করো ');
+//                 }
+//             else if(i==1)
+//                 {
+//                     console.log('৫) কোন কিছু বুঝতে না পারলে (চিন্তা করে দেখো এইখানে কিন্তু একটা শর্ত আছে ), সাপোর্ট সেশনে জয়েন করো  ');
+//                 }
+//                i--;
+//         }
 
