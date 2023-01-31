@@ -43,37 +43,60 @@ var numberOrder=[1,3,2,4,6,5,7,9,8];
 
 // find out largest name 
 
-var largestName=["MRKhan", "BILLclinton","Aishayriyarai","nohanimul"]
-    var elementSize=[];
+// var largestName=["MRKhan", "BILLclinton","Aishayriyarai","nohanimul"]
+//     var elementSize=[];
     
-   for(var i=0;i<largestName.length;i++)
-        {
-            elementSize.push(largestName[i].length);
+//    for(var i=0;i<largestName.length;i++)
+//         {
+//             elementSize.push(largestName[i].length);
             
-        }
+//         }
     
    
-    if(elementSize[0]>elementSize[1] && elementSize[0]>elementSize[2] && elementSize[0]>elementSize[3])
-        {
-            console.log('larger name of friends is ' + largestName[0]);
-        }   
+//     if(elementSize[0]>elementSize[1] && elementSize[0]>elementSize[2] && elementSize[0]>elementSize[3])
+//         {
+//             console.log('larger name of friends is ' + largestName[0]);
+//         }   
     
     
-    else if(elementSize[1]>elementSize[0] && elementSize[1]>elementSize[2] && elementSize[1]>elementSize[3])
-        {
-            console.log('larger name of friends is ' + largestName[1]);
-        }   
+//     else if(elementSize[1]>elementSize[0] && elementSize[1]>elementSize[2] && elementSize[1]>elementSize[3])
+//         {
+//             console.log('larger name of friends is ' + largestName[1]);
+//         }   
     
     
         
-    else if(elementSize[2]>elementSize[0] && elementSize[2]>elementSize[1] && elementSize[2]>elementSize[3])
-        {
-            console.log('larger name of friends is ' + largestName[2]);
-        }   
+//     else if(elementSize[2]>elementSize[0] && elementSize[2]>elementSize[1] && elementSize[2]>elementSize[3])
+//         {
+//             console.log('larger name of friends is ' + largestName[2]);
+//         }   
        
         
-    else if(elementSize[3]>elementSize[0] && elementSize[3]>elementSize[1] && elementSize[3]>elementSize[2])
-        {
-            console.log('larger name of friends is ' + largestName[3]);
-        }   
+//     else if(elementSize[3]>elementSize[0] && elementSize[3]>elementSize[1] && elementSize[3]>elementSize[2])
+//         {
+//             console.log('larger name of friends is ' + largestName[3]);
+//         }   
        
+
+/****
+ * var numbers = [1, 2, 3, 3, 4, 4, 5, 6, 7, 8, 9, 10];
+
+৭. উবের  পরের  এরে  থেকে  ডুপ্লিকেট  নম্বর  গুলা  বাদ  দিয়ে  উনিক  নম্বর  গুলা বের  করতে    হবে 
+
+8. উপরের  আরে  থেকে  সব  থেকে  বড়ো  নম্বর  কোনটা  বের  করো 
+
+ */
+
+
+var numbers = [1, 2, 3, 3, 4, 4, 5, 6, 7, 8, 9,9,10];
+
+
+for(var i=0;i<numbers.length;i++)
+    {
+      
+        if (numbers[i]==numbers[i+1])
+        {
+            numbers.splice(i+1)
+        }
+    }
+    console.log(numbers);
