@@ -63,10 +63,10 @@ function bigNumber(numbers){
         let index=i;
         let element=numbers[index];
         if(element>big){
-            largest=element;
+          big=element;
         }
     }
-    return largest;
+    return big;
 }
 
 let numbers=[999,965,265];
