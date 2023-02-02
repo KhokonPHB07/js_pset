@@ -49,11 +49,30 @@ new array, return the new array and print the result.
 //     }
 // }
 // pp-01>>>order the number from lower to higher
-let x=[1,2,5,4,3,9,8,7,6];
+// let x=[1,2,5,4,3,9,8,7,6];
 //pp-02>>>>delete all duplicate number
-let y=[1,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9]
+// let y=[1,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9];
 //pp-03>>>>> find out the largest name
-let z=["rahim","karim","bangladesh","india","china","indonesia","Australia"]
+// let z=["rahim","karim","bangladesh","india","china","indonesia","Australia"];
+
+
+
+function bigNumber(numbers){
+    let big=numbers[0];
+    for(let i=0;i<numbers.length;i++){
+        let index=i;
+        let element=numbers[index];
+        if(element>big){
+            largest=element;
+        }
+    }
+    return largest;
+}
+
+let numbers=[999,965,265];
+let findBiggest=bigNumber(numbers);
+console.log(findBiggest);
+
 
 
 
