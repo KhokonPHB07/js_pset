@@ -55,7 +55,7 @@ new array, return the new array and print the result.
 //pp-03>>>>> find out the largest name
 // let z=["rahim","karim","bangladesh","india","china","indonesia","Australia"];
 
-
+//find the biggest number
 
 function bigNumber(numbers){
     let big=numbers[0];
@@ -73,6 +73,8 @@ let numbers=[999,965,265];
 let findBiggest=bigNumber(numbers);
 console.log(findBiggest);
 
+
+//H.W>find the lowest number
 
 
 
