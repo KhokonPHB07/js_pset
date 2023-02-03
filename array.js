@@ -12,6 +12,11 @@ const countryName=["bangladesh","india","japan","srilanka"];
 const a=[12,13,15,4,6,54,789]
 const x=["a","b","c","d"];
 
+const cellPhone={
+    brand:Nokia,
+    price:22000,
+    camera:
+}
 
 let b=false;
 
