@@ -76,6 +76,3 @@ console.log(findBiggest);
 
 //H.W>find the lowest number
 
-
-
-
