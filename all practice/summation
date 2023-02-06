@@ -1,0 +1,8 @@
+// let n=999999;
+// console.log((n*(n+1))/2);
+
+let str='bangladesh';
+
+for(let i=0;i<str.length;i++){
+    console.log(i);
+}
