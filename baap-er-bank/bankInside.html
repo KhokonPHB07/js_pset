@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bank inside</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <h1 class="text-8xl text-center mt-6 font-serif">Lets have some <span
+            class="text-rose-600 underline italic font-semibold">Moooooney</span></h1>
+
+
+    <main>
+
+        <section class="grid grid-cols-3 gap-16 w-9/12 mt-36 mx-auto">
+            <div class="bg-rose-900 rounded-2xl">
+                <h3 class="text-3xl font-semibold text-white mb-16 mx-8 py-8">Deposit</h3>
+                <p class="text-5xl font-bold text-white mx-8 py-8">$<span id="deposit-money">100</span></p>
+            </div>
+            <div class="bg-rose-300 rounded-2xl">
+                <h3 class="text-3xl font-semibold text-white mb-16 mx-8 py-8">Withdraw</h3>
+                <p class="text-5xl font-bold text-white mx-8 py-8">$<span id="withdrawn">000</span></p>
+            </div>
+            <div class="bg-rose-700 rounded-2xl">
+                <h3 class="text-3xl font-semibold text-white mb-16 mx-8 py-8">Balance</h3>
+                <p class="text-5xl font-bold text-white mx-8 py-8">$<span id="balance-after-dw">1245</span></p>
+            </div>
+        </section>
+
+        <section class="grid grid-cols-2 gap-16 w-9/12 mt-8 mx-auto">
+            <div class="bg-rose-600 rounded-2xl px-14 py-14">
+                <h3 class="text-4xl font-medium text-white mb-4 ">Deposit Amount</h3>
+                <input class=" w-9/12 h-12 block mb-3 rounded placeholder:text-2xl placeholder:p-6" type="text" name=""id="deposit-req" placeholder="write your deposit amount">
+                <button id="btn-log"class="text-2xl bg-green-900 hover:bg-green-300 text-white px-14 py-3 rounded-xl">deposit</button>
+            </div>
+            <div class="bg-rose-600 rounded-2xl px-14 py-14">
+                <h3 class="text-4xl font-medium text-white mb-4">Withdraw Amount</h3>
+                <input class="w-9/12 h-12 block mb-3  rounded placeholder:text-2xl placeholder:p-6" type="text" name=""id="withdraw-amount-request" placeholder="write your Withdraw amount">
+                <button id="withdraw-button"class="text-2xl bg-green-900 hover:bg-green-300 text-white px-14 py-3 rounded-xl">Withdraw</button>
+            </div>
+
+        </section>
+
+        <footer class="flex justify-center my-4">
+            <button id="log-out" class="text-4xl text-white rounded-2xl bg-blue-700 hover:bg-rose-900 px-48 py-4">Log out</button>
+        </footer>
+
+
+    </main>
+
+
+</body>
+
+<script src="./js/calcul.js"></script>
+<script src="./js/withdraw.js"></script>
+<script src="./js/signout.js"></script>
+
+</html>
